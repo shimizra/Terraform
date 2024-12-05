@@ -1,4 +1,4 @@
-# Terraform AWS VPC Deployment
+# Terraform AWS VPC Deployment + ec2 in privat subnet
 
 This project sets up a VPC in AWS with the following resources:
 
@@ -15,3 +15,13 @@ This project sets up a VPC in AWS with the following resources:
 3. Customize the variables in `terraform.tfvars`.
 4. Run `terraform apply` to apply the configuration.
 5. Verify the resources are created in AWS.
+
+need to configure new or dynamic ami_id:
+
+1)
+ami_id              = "ami-0453ec754f44f9a4a"  # Default Amazon Linux AMI free tear
+this one id already in my vpc.
+
+2)
+key_name      = "my-key-pair" # Name of the key pair in AWS
+now is not configured, which means that no pem file for ssh -i, so no ssh connect.
