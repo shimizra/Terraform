@@ -7,6 +7,7 @@ This project sets up a VPC in AWS with the following resources:
 - **1 NAT Gateway**
 - **1 Internet Gateway**
 - **Routing Tables**
+- **1 EC2 machine in a private subnet**
 
 ## How to use:
 
