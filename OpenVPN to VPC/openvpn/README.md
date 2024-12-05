@@ -1,3 +1,14 @@
+# Install confluence links:
+
+This one is to deploy the terraform file:
+https://cloudride.atlassian.net/wiki/spaces/CLOUD/pages/1236566017/OpenVPN-+Create+users+and+usage#Download-Client-File
+
+Also help same thing:
+https://cloudride.atlassian.net/wiki/spaces/CLOUD/pages/1005846529/OpenVPN-+Multi+Users
+
+This one to install openvpn app:
+https://cloudride.atlassian.net/wiki/spaces/WL/pages/1069613186/Using+OpenVPN
+
 # OpenVPN
 Self managed OpenVPN, terraform code to create an open vpn instance.  
 This also implements a tool to manage the users of the OpenVPN.  
